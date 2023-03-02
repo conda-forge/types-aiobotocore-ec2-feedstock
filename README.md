@@ -1,11 +1,11 @@
-About types-aiobotocore-ec2
-===========================
+About types-aiobotocore-ec2-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-aiobotocore-ec2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-aiobotocore-ec2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Type annotations for aiobotocore.EC2 2.4.2 service generated with mypy-boto3-builder
 
