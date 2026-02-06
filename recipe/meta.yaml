@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-ec2" %}
-{% set version = "3.1.1" %}
+{% set version = "3.1.2" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c1b34da6b66416031b6fac654975988c01d55ef2fdb9a4f9f21afae4eae450f7
+  sha256: caf06df5b97935339aab2cd743619c147c357e94b52111fba942b84f388ec600
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
