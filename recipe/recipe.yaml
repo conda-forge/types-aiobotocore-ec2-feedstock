@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.8.0"
+  version: "3.9.0"
 
 package:
   name: types-aiobotocore-ec2
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-ec2/types_aiobotocore_ec2-${{ version }}.tar.gz
-  sha256: cdce6ee4ec79b0a3989cdb0296204e870c37d3fd29d646a150a298ec8e9924b5
+  sha256: e9ac0de697f9030dcfeb2ce4b63a16fa189634f1fa18f3aafb7aeba8e6b7417d
 
 build:
   number: 0
